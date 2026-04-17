@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "created": "2026-04-17T03:26:00Z",
+  "sources": [
+    {
+      "path": "/home/mete/.openclaw/workspace/MEMORY.md",
+      "source_type": "openclaw_memory",
+      "ingested_at": "2026-04-17T03:28:00Z",
+      "pages_created": ["daily-morning-briefing", "verification-layer", "youtube-shorts-automation", "brut-agent", "mete-profile"],
+      "pages_updated": []
+    },
+    {
+      "path": "/home/mete/.openclaw/workspace/memory/",
+      "source_type": "openclaw_daily_notes",
+      "ingested_at": "2026-04-17T03:28:00Z",
+      "file_count": 16,
+      "pages_created": ["openclaw-setup", "rss-parsing", "cron-management"],
+      "pages_updated": ["daily-morning-briefing", "verification-layer"]
+    }
+  ],
+  "openclaw": {
+    "source_path": "~/.openclaw/",
+    "last_ingested": "2026-04-17T03:28:00Z",
+    "memory_updated_at": "2026-04-17T03:28:00Z",
+    "daily_notes_ingested": 16,
+    "sessions_ingested": 0,
+    "pages_created": 8,
+    "pages_updated": 2
+  }
+}

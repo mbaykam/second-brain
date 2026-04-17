@@ -1,0 +1,40 @@
+name: Auto-update Wiki
+
+on:
+  schedule:
+    # Run daily at 8 AM UTC (11 AM Istanbul)
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout wiki
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install openclaw
+          
+      - name: Sync from OpenClaw memory
+        run: |
+          # This would call the wiki-update skill
+          # For now, just a placeholder
+          echo "Wiki update would run here"
+          # openclaw wiki-update --vault . --memory ~/.openclaw/
+          
+      - name: Commit changes
+        run: |
+          git config user.name "Wiki Bot"
+          git config user.email "wiki@localhost"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update from OpenClaw memory"
+          
+      - name: Push changes
+        run: git push

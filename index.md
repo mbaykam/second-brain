@@ -33,6 +33,11 @@ updated: 2026-04-17
 ## References
 
 - [[memory-sources]] — Provenance of extracted knowledge
+- [[mobile-sync]] — Free mobile sync options (Git, Syncthing, LiveSync)
+
+## Meta
+
+- [[README]] — Vault overview and quick start
 
 ## Journal
 

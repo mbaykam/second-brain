@@ -1,48 +1,32 @@
 ---
 title: Wiki Index
-description: Master catalog of knowledge
+category: meta
 created: 2026-04-17
-updated: 2026-04-17
+updated: 2026-04-18
 ---
 
-# Second Brain Index
+# Wiki Index
 
-*This index is automatically maintained. Last updated: 2026-04-17*
+Auto-generated catalog of all wiki pages.
 
-## Projects
+Last updated: 2026-04-18 09:00
 
-- [[daily-morning-briefing]] — Automated RSS news briefing system
-- [[youtube-shorts-automation]] — Turkish YouTube Shorts pipeline with AI video generation
+## Stats
 
-## Concepts
+- Total pages: 3
+- Concepts: 1
+- Entities: 0
+- Skills: 2
+- References: 0
 
-- [[verification-layer]] — Check-and-test protocol for reliable task execution
-- [[karpathy-llm-wiki-pattern]] — Knowledge compilation vs RAG approach
+## Pages by Category
 
-## Entities
 
-- [[brut-agent]] — AI assistant configuration and identity
-- [[mete-profile]] — User preferences and context
+### Concepts
 
-## Skills
+- [[concepts/karpathy-llm-wiki-pattern|Karpathy-Llm-Wiki-Pattern]]
 
-- [[openclaw-setup]] — OpenClaw agent configuration and workflows
-- [[rss-parsing]] — Handling CDATA-wrapped XML feeds
-- [[cron-management]] — Scheduled task automation
+### Skills
 
-## References
-
-- [[memory-sources]] — Provenance of extracted knowledge
-- [[mobile-sync]] — Free mobile sync options (Git, Syncthing, LiveSync)
-
-## Meta
-
-- [[README]] — Vault overview and quick start
-
-## Journal
-
-See [[log]] for chronological operations.
-
----
-
-*This wiki follows the Karpathy LLM Wiki pattern — knowledge is compiled, cross-linked, and continuously refined.*
+- [[skills/cron-management|Cron-Management]]
+- [[skills/rss-parsing|Rss-Parsing]]

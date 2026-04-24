@@ -2,14 +2,14 @@
 title: Wiki Index
 category: meta
 created: 2026-04-17
-updated: 2026-04-23
+updated: 2026-04-24
 ---
 
 # Wiki Index
 
 Auto-generated catalog of all wiki pages.
 
-Last updated: 2026-04-23 21:00
+Last updated: 2026-04-24 09:00
 
 ## Stats
 
